@@ -14,5 +14,7 @@ Route::get('indice-articoli', [ArticoliController::class, 'articolo'])->name('ar
 Route::get('dettaglio-articoli/{id}', [ArticoliController::class, 'dettaglio'])->name('articolo.dettaglio');
 
 Route::get('chi-siamo', [ChiSiamoController::class, 'chiSiamo'])->name('chiSiamo');
+Route::get('dettaglio-chi-siamo/{id}', [ChiSiamoController::class, 'dettaglioChiSiamo'])->name('dettaglio.chiSiamo');
 
 Route::get('/api/articoli', [ArticoliController::class, 'index']);
+

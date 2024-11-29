@@ -44,24 +44,63 @@ header {
 .bg-page {
 background-color: rgb(223, 208, 227);
 }
+
+.bg-label {
+    background-color: rgb(111, 137, 108);
+}
 .card-custom {
     background-color: white;
     height: 600px;
     width: 40%;
-    border: 2px solid var(--celeste-scuro);
-    border-radius: 20px;
+    border: 5px solid rgb(223, 208, 227);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {  
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
 }
 
 .img-card {
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
+
+
+/* Card Chi Siamo */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* Chi Siamo Dettaglio */
+.img {
+    border: 5px solid #f8f9fa;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.alert-info {
+    background-color: #e9f7fc;
+    border-left: 5px solid #0dcaf0;
+}
+
+h1, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 /* Footer */

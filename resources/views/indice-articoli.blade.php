@@ -1,12 +1,12 @@
 <x-layout>
-    <div class="container-fluid bg-page">
+    <div class="container-fluid">
     <h1 class="py-5 px-5">Articoli</h1>
     <div class="container">
         <div class="row">
             <!-- Sidebar per i filtri -->
             <div class="col-12 col-md-3">
                 <h3 class="">Filtra per:</h3>
-                <div class="accordion sticky-top py-3" id="accordionExample">
+                <div class="accordion sticky-top py-3 " id="accordionExample">
                     <!-- Filtro per categoria -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
