@@ -18,3 +18,8 @@ Route::get('dettaglio-chi-siamo/{id}', [ChiSiamoController::class, 'dettaglioChi
 
 Route::get('/api/articoli', [ArticoliController::class, 'index']);
 
+Route::get('/contattaci', [PublicController::class, 'contattaci'])->name('contattaci');
+Route::post('/contattaci/submit', [PublicController::class, 'submit'])->name('contact.submit');
+
+Route::get('/thank-you', [PublicController::class, 'thankYou'])->name('thankYou.page');
+

@@ -13,7 +13,7 @@
                 <div class="alert alert-info mt-4">
                     <strong>Fun Fact:</strong> {{ $membro['fun_fact'] }}
                 </div>
-                <a href="{{ route('chiSiamo') }}" class="btn btn-outline-primary mt-4">Torna al Team</a>
+                <a href="{{ route('chiSiamo') }}" class="btn btn-custom mt-4">Torna al Team</a>
             </div>
         </div>
     </div>

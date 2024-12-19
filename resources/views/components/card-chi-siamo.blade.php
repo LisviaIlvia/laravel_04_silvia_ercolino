@@ -3,5 +3,5 @@
     <div class="card-body text-center">
         <h3 class="card-title">{{ $membroName }}</h3>
         <p class="card-text"><strong>{{ $membroRole }}</strong></p>
-        <a href="{{ route('dettaglio.chiSiamo', ['id' => $membroId]) }}" class="btn btn-primary">Scopri di più</a>
+        <a href="{{ route('dettaglio.chiSiamo', ['id' => $membroId]) }}" class="btn btn-custom">Scopri di più</a>
     </div>
