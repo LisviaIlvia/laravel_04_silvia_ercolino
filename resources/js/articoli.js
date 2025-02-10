@@ -1,6 +1,8 @@
 
 
-fetch('json/articoli.json').then((response) => response.json()).then((data) => {
+fetch('/api/articoli')  // Usa l'endpoint Laravel invece del file JSON
+.then((response) => response.json())
+.then((data) => {
     let radioWrapper = document.querySelector('#radio-wrapper');
     let cardWrapper = document.querySelector('#card-wrapper');
 

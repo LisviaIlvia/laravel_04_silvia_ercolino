@@ -3,12 +3,12 @@
     <div class="container-fluid">
         <div class="row height-custom justify-content-center align-items-center">
             <div class="col-12">
-                <h1 class="text-center display-4 title"> Contattaci </h1>
+                <h1 class="text-center display-4 title pt-5"> Contattaci </h1>
             </div>
         </div>
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-md-6">
-                <form class="p-5 mb-5 bg-secondary shadow rounded" method="POST" action="{{route('contact.submit')}}">
+                <form class="p-4 rounded-4 shadow bg-secondary-subtle my-5 p-3" method="POST" action="{{route('contact.submit')}}">
                   @csrf  
                     <div class="mb-3">
                       <label for="username" class="form-label">Inserisci il tuo nome completo</label>

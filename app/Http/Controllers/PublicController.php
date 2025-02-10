@@ -36,4 +36,8 @@ class PublicController extends Controller
         // redirect ad una pagina custom - "thank you page"
         return redirect()->route('thankYou.page');
     }
+
+    public function aggiungi() {
+        return view('/aggiungi-articolo');
+    }
 }
